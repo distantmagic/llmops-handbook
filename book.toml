@@ -3,7 +3,7 @@ authors = ["Mateusz Charytoniuk"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Llama.cpp Deployment Handbook"
+title = "LLMOps Handbook"
 
 [output.html]
 default-theme = "dark"
