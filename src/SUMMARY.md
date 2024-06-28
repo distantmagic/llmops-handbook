@@ -16,3 +16,4 @@
         - [Long-Running vs Serverless](./application-level-challenges/architecture/long-running-vs-serverless.md)
     - [Optimization](./application-level-challenges/optimization/README.md)
         - [Input/Ouput Bottlenecks](./application-level-challenges/optimization/input-output-bottlenecks.md)
+        - [Asynchronous Programming](./application-level-challenges/optimization/asynchronous-programming.md)
