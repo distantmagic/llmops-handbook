@@ -1,3 +1,5 @@
+/.pnp.cjs
+/.pnp.loader.mjs
+/.yarn
+/assets
 /book
-/mermaid-init.js
-/mermaid.min.js

@@ -1,0 +1,15 @@
+{
+  "name": "llmops-handbook",
+  "packageManager": "yarn@4.0.2",
+  "dependencies": {
+    "@hotwired/stimulus": "^3.2.2",
+    "@hotwired/turbo": "^8.0.4",
+    "mermaid": "^10.9.1",
+    "tslib": "^2.6.3",
+    "typescript": "^5.5.2"
+  },
+  "devDependencies": {
+    "@types/hotwired__turbo": "^8",
+    "esbuild": "^0.21.5"
+  }
+}
