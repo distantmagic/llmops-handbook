@@ -34,7 +34,7 @@ jobs:
         uses: actions-rs/cargo@v1
         with:
           command: install
-          args: mdbook
+          args: mdbook mdbook-mermaid
       - name: build book
         run: make build
       - name: Setup Pages
