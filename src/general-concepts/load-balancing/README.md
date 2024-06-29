@@ -8,6 +8,6 @@ The interesting thing is that having some experience with 3D game development mi
 
 ## Differences Between Balancing GPU and CPU Load
 
-In the context of LLMOps, the primary factors we have to deal with this time are [Input/Output](/general-concepts/input-output/README.md) bottlenecks instead of the usual CPU bottlenecks. That forces us to adjust how we design our infrastructure and applications.
+In the context of LLMOps, the primary factors we have to deal with this time are [Input/Output](/general-concepts/input-output) bottlenecks instead of the usual CPU bottlenecks. That forces us to adjust how we design our infrastructure and applications.
 
 We will also often use a different set of metrics than traditional load balancing, which are usually closer to the application level (like the number of available context slots being used, the number of buffered application requests, and such).
