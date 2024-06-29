@@ -35,13 +35,13 @@ jobs:
         with:
           path: target
           key: ${{ runner.os }}-cargo-build-target-${{ hashFiles('**/Cargo.lock') }}
-      - name: install mdbook
+      - name: install mdbook mdbook-mermaid
         uses: actions-rs/cargo@v1
         with:
           command: install
           args: mdbook
       - name: build book
-        run: mdbook build
+        run: make build
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact

@@ -6,8 +6,12 @@ src = "src"
 title = "LLMOps Handbook"
 
 [output.html]
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
 default-theme = "dark"
 edit-url-template = "https://github.com/distantmagic/llmops-handbook/edit/master/{path}"
 git-repository-url = "https://github.com/distantmagic/llmops-handbook/tree/master"
 preferred-dark-theme = "ayu"
 smart-punctuation = true
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"

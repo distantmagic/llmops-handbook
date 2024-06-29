@@ -1,6 +1,6 @@
 # Summary
 
-[Introduction]()
+[Introduction](README.md)
 
 - [General Concepts]()
     - [Fine-tuning]()
