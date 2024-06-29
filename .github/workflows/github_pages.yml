@@ -20,21 +20,16 @@ jobs:
         with:
           toolchain: stable
           profile: minimal
-      - name: cache cargo registry
+      - name: cache cargo
         uses: actions/cache@v1
         with:
-          path: ~/.cargo/registry
+          path: |
+            ~/.cargo/bin/
+            ~/.cargo/registry/index/
+            ~/.cargo/registry/cache/
+            ~/.cargo/git/db/
+            target/
           key: ${{ runner.os }}-cargo-registry-${{ hashFiles('**/Cargo.lock') }}
-      - name: cache cargo index
-        uses: actions/cache@v1
-        with:
-          path: ~/.cargo/git
-          key: ${{ runner.os }}-cargo-index-${{ hashFiles('**/Cargo.lock') }}
-      - name: cache cargo build
-        uses: actions/cache@v1
-        with:
-          path: target
-          key: ${{ runner.os }}-cargo-build-target-${{ hashFiles('**/Cargo.lock') }}
       - name: install mdbook mdbook-mermaid
         uses: actions-rs/cargo@v1
         with:
