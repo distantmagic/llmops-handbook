@@ -30,8 +30,20 @@ jobs:
             ~/.cargo/git/db/
             target/
           key: ${{ runner.os }}-cargo-registry-${{ hashFiles('**/Cargo.lock') }}
-      - name: install mdbook mdbook-mermaid
-        run: cargo install --force mdbook mdbook-mermaid
+      - name: Check and install mdbook if not already installed
+        run: |
+          if ! cargo install --list | grep -q "mdbook v"; then
+            cargo install mdbook
+          else
+            echo "mdbook is already installed"
+          fi
+      - name: Check and install mdbook-mermaid if not already installed
+        run: |
+          if ! cargo install --list | grep -q "mdbook-mermaid v"; then
+            cargo install mdbook-mermaid
+          else
+            echo "mdbook-mermaid is already installed"
+          fi
       - name: build book
         run: make build
       - name: Setup Pages
