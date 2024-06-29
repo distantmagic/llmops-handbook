@@ -13,6 +13,7 @@ assets/global_mermaid.js: $(TS_SOURCES) .pnp.cjs
 		--loader:.svg=file \
 		--loader:.ttf=file \
 		--loader:.webp=file \
+		--minify \
 		--outdir=$(ESBUILD_TARGET_DIRECTORY) \
 		--sourcemap \
 		--target=safari16 \
