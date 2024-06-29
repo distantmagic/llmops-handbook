@@ -31,10 +31,7 @@ jobs:
             target/
           key: ${{ runner.os }}-cargo-registry-${{ hashFiles('**/Cargo.lock') }}
       - name: install mdbook mdbook-mermaid
-        uses: actions-rs/cargo@v1
-        with:
-          command: install
-          args: mdbook mdbook-mermaid
+        run: cargo install --force mdbook mdbook-mermaid
       - name: build book
         run: make build
       - name: Setup Pages
