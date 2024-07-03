@@ -6,7 +6,9 @@ src = "src"
 title = "LLMOps Handbook"
 
 [output.html]
-additional-js = ["assets/global_mermaid.js"]
+additional-js = [
+    "assets/global_mermaid.js"
+]
 default-theme = "ayu"
 edit-url-template = "https://github.com/distantmagic/llmops-handbook/edit/master/{path}"
 git-repository-url = "https://github.com/distantmagic/llmops-handbook/tree/master"
