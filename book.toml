@@ -3,7 +3,7 @@ authors = ["Mateusz Charytoniuk"]
 language = "en"
 multilingual = false
 src = "src"
-title = "LLMOps Handbook"
+title = "LLMOps Handbook (work in progress)"
 
 [output.html]
 additional-js = [
