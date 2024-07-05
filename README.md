@@ -6,8 +6,8 @@ For the rendered version, visit our website: https://llmops-handbook.distantmagi
 
 ## Our Other Projects
 
-- [Paddler](Stateful load balancer custom-tailored for llama.cpp)
-- [Resonance](Modern PHP framework for IO-intensive applications)
+- [Paddler](https://github.com/distantmagic/paddler) - Stateful load balancer custom-tailored for llama.cpp
+- [Resonance](https://github.com/distantmagic/resonance) - Modern PHP framework for IO-intensive applications
 
 ## License
 
