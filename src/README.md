@@ -14,6 +14,6 @@ This is a living document, which means it will be updated regularly. To follow u
 
 ## New Class of Opportunities, New Class of Problems
 
-Although there has been a recent trend of naming everything `*Ops` (`DevOps`, `Product Ops`, `MLOps`, `LLMOps`, `BizOps`, etc.), I think `LLMOps` and `MLOps` truly deserve their place as a standalone set of practices.
+Although there has been a recent trend of naming everything `*Ops` (`DevOps`, `Product Ops`, `MLOps`, `LLMOps`, `BizOps`, etc.), `LLMOps` and `MLOps` truly deserve their place as a standalone set of practices.
 
 They bridge the gap between the applications and AI models deployed in the infrastructure. They also address specific issues arising from using GPUs and TPUs, with the primary stress being [Input/Output](/general concepts/input-output) optimizations.

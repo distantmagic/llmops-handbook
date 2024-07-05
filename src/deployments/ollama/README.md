@@ -1,5 +1,9 @@
 # Ollama
 
+```admonish
+GitHub Repository: <https://github.com/ollama/ollama>
+```
+
 `Ollama` is a convenient and easy-to-use wrapper around `llama.cpp`.
 
 It acts like a `llama.cpp` multiplexer. You can start a new conversation or request completion from a specific LLM without manually downloading weights and setting them up. 
