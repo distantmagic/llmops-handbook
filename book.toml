@@ -14,6 +14,11 @@ edit-url-template = "https://github.com/distantmagic/llmops-handbook/edit/master
 git-repository-url = "https://github.com/distantmagic/llmops-handbook/tree/master"
 preferred-dark-theme = "ayu"
 smart-punctuation = true
+additional-css = ["./mdbook-admonish.css"]
 
 [preprocessor.mermaid]
 command = "mdbook-mermaid"
+
+[preprocessor.admonish]
+command = "mdbook-admonish"
+assets_version = "3.0.2" # do not edit: managed by `mdbook-admonish install`

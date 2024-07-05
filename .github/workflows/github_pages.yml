@@ -40,6 +40,11 @@ jobs:
           if ! command -v mdbook &> /dev/null; then
             cargo install mdbook
           fi
+      - name: Check and install mdbook-admonish if not already installed
+        run: |
+          if ! command -v mdbook-admonish &> /dev/null; then
+            cargo install mdbook-admonish
+          fi
       - name: Check and install mdbook-mermaid if not already installed
         run: |
           if ! command -v mdbook-mermaid &> /dev/null; then

@@ -1,4 +1,6 @@
 ESBUILD_TARGET_DIRECTORY ?= assets
+CSS_ENTRYPOINTS := $(wildcard resources/ts/mdbook_*.ts)
+CSS_SOURCES := $(wildcard resources/css/*.css)
 TS_ENTRYPOINTS := $(wildcard resources/ts/global_*.ts)
 TS_SOURCES := $(wildcard resources/ts/*.ts)
 
