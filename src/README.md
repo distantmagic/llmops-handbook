@@ -2,7 +2,7 @@
 
 This handbook is a practical and advanced guide to LLMOps. It provides a solid understanding of large language models' general concepts, deployment techniques, and software engineering practices. With this knowledge, you will be prepared to maintain the entire stack confidently.
 
-It will teach you how to use Large Language Models and self-host Open Source models and build applications around them. It goes beyond just [Retrieval Augmented Generation](/retrieval-augmented-generation) and [Fine Tuning](/fine-tuning).
+It will teach you how to use Large Language Models and self-host Open Source models and build applications around them. It goes beyond just [Retrieval Augmented Generation](/customization/retrieval-augmented-generation) and [Fine Tuning](/customization/fine-tuning).
 
 It assumes you are interested in self-hosting open source [Large Language Models](/general-concepts/large-language-model). If you only want to use them through HTTP APIs, you can jump straight to the [application layer](/application-layer) best practices.
 
