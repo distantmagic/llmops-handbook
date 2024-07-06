@@ -1,0 +1,34 @@
+# Contributing
+
+First of all, every contribution is welcomed.
+
+You do not have to add or improve articles to contribute. Even giving us suggestions or general ideas is valuable if you want to join in.
+
+To discuss the handbook contents, use [GitHub discussions](https://github.com/distantmagic/llmops-handbook/discussions).
+
+## What are we looking for?
+
+This handbook is intended to be a living document that evolves with the community. It is aimed at more advanced LLM users who want to deploy scalable setups and/or be able to architect applications around them.
+
+It focuses primarily on runners like `llama.cpp` or `VLLM`, aimed at production usage. However, if you find an interesting use case for `aphrodite`, `tabby`, or any other runner, that is also welcomed.
+
+Those are just general ideas. Anything related to the infrastructure, application layer, and tutorials is welcomed. If you have an interesting approach to using LLMs, feel free to contribute that also.
+
+## How to contribute?
+
+We are using [GitHub issues](https://github.com/distantmagic/llmops-handbook/issues) and [pull requests](https://github.com/distantmagic/llmops-handbook/pulls) to organize the work.
+
+### Submitting a new article
+
+If you want to submit an article:
+1. Start a GitHub issue with an outline (with general points you want to cover) so we can decide together if it fits the handbook.
+2. Add an `outline` label to that issue.
+3. If the article fits the handbook, add a new page and create a pull request with a finished article.
+
+### Updating an article
+
+If you want to improve an existing article, start an issue to let us know your thoughts or create a pull request if you are ready to add changes. Add an `improvement` tag to such an issue or pull request.
+
+### Scrutiny
+
+If you think something in the handbook is incorrect, add a new issue with a `scrutiny` tag and point out the issues.

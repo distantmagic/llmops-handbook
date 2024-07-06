@@ -22,6 +22,7 @@
         - [Kubernetes]()
     - [Ollama](./deployments/ollama/README.md)
     - [Paddler](./deployments/paddler/README.md)
+    - [VLLM]()
 - [Customization]()
     - [Fine-tuning](./customization/fine-tuning/README.md)
     - [Retrieval Augmented Generation](./customization/retrieval-augmented-generation/README.md)
