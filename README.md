@@ -11,7 +11,7 @@ For the rendered version, visit our website: https://llmops-handbook.distantmagi
 
 ## License
 
-Creative Commons Attribution Share Alike 4.0 International
+[Creative Commons Attribution Share Alike 4.0 International](./LICENSE)
 
 ## Community
 

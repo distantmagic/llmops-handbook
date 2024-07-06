@@ -2,7 +2,7 @@
 
 A forward proxy is an intermediary server between the client and the origin server. Clients connect to the forward proxy server and request a resource (such as a completion) available on a different server that is otherwise inaccessible to them. The forward proxy server retrieves the resource and forwards it to the client.
 
-You can combine both forward proxy and [reverse proxy](/general-concepts/load-balancing/reverse-proxy/index.html) to create a [gateway](/general-concepts/load-balancing/gateway/index.html).
+You can combine both forward proxy and [reverse proxy](/general-concepts/load-balancing/reverse-proxy) to create a [gateway](/general-concepts/load-balancing/gateway).
 
 ## llama.cpp Forward Proxy
 

@@ -6,9 +6,9 @@ While forward and reverse proxies may seem functionally similar, their differenc
 
 That means a reverse proxy hides its presence from the clients and acts as an intermediary between them and the servers. When you communicate with a reverse proxy, it is as if you communicated directly with the target server. 
 
-That is one of the primary differences between [forward proxy](/general-concepts/load-balancing/forward-proxy/index.html) and a reverse proxy.
+That is one of the primary differences between [forward proxy](/general-concepts/load-balancing/forward-proxy) and a reverse proxy.
 
-You can combine both [forward proxy](/general-concepts/load-balancing/forward-proxy/index.html) and reverse proxy to create a [gateway](/general-concepts/load-balancing/gateway/index.html).
+You can combine both [forward proxy](/general-concepts/load-balancing/forward-proxy) and reverse proxy to create a [gateway](/general-concepts/load-balancing/gateway).
 
 ## Paddler
 
