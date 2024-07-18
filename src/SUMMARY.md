@@ -36,7 +36,7 @@
         - [Function Calling]()
 - [Application Layer](./application-layer/README.md)
     - [Architecture]()
-        - [Long-Running]()
+        - [Long-Running](./application-layer/architecture/long-running/README.md)
         - [Serverless]()
     - [Optimization]()
         - [Asynchronous Programming]()
