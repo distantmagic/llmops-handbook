@@ -6,7 +6,7 @@ By putting [llama.cpp](https://github.com/ggerganov/llama.cpp) in EC2 Image Buil
 
 You can also use that AMI as a base and add your foundational model on top of it. Thanks to that, you can quickly scale up or down your [llama.cpp](https://github.com/ggerganov/llama.cpp) groups.
 
-We will repackage [the base EC2 tutorial](tutorial-installing-llamacpp-aws-cuda.md) as a set of Image Builder Components and Workflow.
+We will repackage [the base EC2 tutorial](/deployments/llama.cpp/aws-ec2-cuda) as a set of Image Builder Components and Workflow.
 
 You can complete the tutorial steps either manually or by automating the setup with [Terraform](https://www.terraform.io/)/[OpenTofu](https://opentofu.org/). Terraform source files are linked to their respective tutorial steps.
 

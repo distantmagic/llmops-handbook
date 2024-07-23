@@ -1,1 +1,0 @@
-# Matching the JSON Schema
