@@ -6,7 +6,7 @@ Those applications have to deal with some issues that are not typically met in t
 
 Up until [Large Language Models](/general-concepts/large-language-model) became mainstream and in demand by a variety of applications, the issue of dealing with long-running requests was much less prevalent. Typically, due to functional requirements, all the microservice requests normally would take 10ms or less, while waiting for a [Large Language Models](/general-concepts/large-language-model) to complete the inference can take multiple seconds.
 
-That calls for some adjustments in the application architecture, non-blocking [Input/Output](/general-concepts/input-output) and asynchronous programming. 
+That calls for some adjustments in the application architecture, non-blocking [Input/Output](/general-concepts/input-output) and [asynchronous programming](/application-layer/optimization/asynchronous-programming). 
 
 This is where asynchronous programming languages shine, like Python with its `asyncio` library or Rust with its `tokio` library, Go with its goroutines, etc. 
 
