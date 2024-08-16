@@ -22,8 +22,7 @@ We are using [GitHub issues](https://github.com/distantmagic/llmops-handbook/iss
 
 If you want to submit an article:
 1. Start a GitHub issue with an outline (with general points you want to cover) so we can decide together if it fits the handbook.
-2. Add an `outline` label to that issue.
-3. If the article fits the handbook, add a new page and create a pull request with a finished article.
+2. If the article fits the handbook, add a new page and create a pull request with a finished article.
 
 ### Updating an article
 
