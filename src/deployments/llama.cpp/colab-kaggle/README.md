@@ -16,9 +16,9 @@ You would be required to have access to a Colab or Kaggle notebook. The process 
 
 3. Set the values of the environment variables:
     ```shell
-        set LLAMA_CUBLAS=1
-        set CMAKE_ARGS=-DLLAMA_CUBLAS=on
-        set FORCE_CMAKE=1
+    set LLAMA_CUBLAS=1
+    set CMAKE_ARGS=-DLLAMA_CUBLAS=on
+    set FORCE_CMAKE=1
     ```
 
 4. Install the below libraries:
